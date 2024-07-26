@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+
+ html{
+  @apply  text-slate-950;
+  
+  font-family: "Playwrite DK Loopet", cursive;
+
+  
+   
+ }
+
+ /* .font-1{
+  @apply  font-extrabold  text-3xl;
+ }
+
+
+ .font-2{
+  @apply subpixel-antialiased
+ }
+
+ .font-3{
+    @apply italic
+ }
+
+ .font-4{
+     @apply font-semibold
+ } */
+
+}
